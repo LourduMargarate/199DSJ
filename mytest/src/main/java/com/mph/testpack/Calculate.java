@@ -18,6 +18,9 @@ public class Calculate {
  public int sum(int a,int b) {
 		return a+b;
 	}
+	public int Summation(){
+	System.out.println("Adding everything to file");
+	}
 	public static void main(String[] args) {
                       Calculate c=new Calculate();
                       System.out.println(c.add(11,22));
